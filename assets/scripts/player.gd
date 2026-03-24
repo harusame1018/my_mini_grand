@@ -12,6 +12,7 @@ var car_name = ""
 var current_car = ""
 var punch_is_colliding = false
 var punch_colliding_body:Node3D = null
+var is_attack = false
 const JUMP_VELOCITY = 4.5
 const dash_speed = 17.0
 const normal_speed = 5.0
@@ -50,10 +51,13 @@ func _physics_process(delta: float) -> void:
 				$CollisionShape3D.disabled = true
 				is_near_car = false
 				interact_view.hide()
-	if Input.is_action_just_pressed("punch"):
+	if Input.is_action_just_pressed("punch") and not $model/AnimationPlayer.is_playing() and not is_attack:
+		is_attack = true
 		$model/AnimationPlayer.play("punch")
 		if punch_is_colliding and punch_colliding_body.has_method("take_damage"):
 			punch_colliding_body.take_damage($punch_pos)
+		await $model/AnimationPlayer.animation_finished
+		is_attack = false
 	if Input.is_action_pressed("dash") and !is_heal_stamina:
 		SPEED = dash_speed
 		is_dash = true
@@ -72,7 +76,7 @@ func _physics_process(delta: float) -> void:
 	var input_dir := Input.get_vector("move_left", "move_right", "move_forward", "move_back")
 	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	direction = direction.rotated(Vector3.UP,camera.global_rotation.y)
-	if direction:
+	if direction and not is_attack:
 		velocity.x = direction.x * SPEED
 		velocity.z = direction.z * SPEED
 		$"model/AnimationPlayer".play("walk")

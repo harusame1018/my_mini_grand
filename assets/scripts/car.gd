@@ -19,7 +19,11 @@ func _process(delta: float) -> void:
 		get_node("/root/main/player").global_position = global_position + global_transform.basis.x * 1.5
 		get_node("/root/main/player").show()
 		get_node("/root/main/player/CollisionShape3D").disabled = false
+		engine_force = 0
+		steering = 0
+		brake = 5
 		can_move_car = false
+		return
 	steering = move_toward(steering,Input.get_axis("move_right","move_left") * MAX_STEER,delta * 2.5)
 	engine_force = Input.get_axis("move_back","move_forward") * ENGINE_POWER
 	print(steering)
