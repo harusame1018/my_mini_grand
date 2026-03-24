@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://d1ilu38juoae6"]
+
+[ext_resource type="Script" uid="uid://g4lsce77834i" path="res://assets/scripts/gomibako.gd" id="1_ql185"]
+[ext_resource type="PackedScene" uid="uid://bxv7ikowf5dqa" path="res://assets/models/gomibako.glb" id="2_74hsy"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ql185"]
+bounce = 0.1
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_ql185"]
+height = 0.8946228
+radius = 0.32177734
+
+[node name="gomibako" type="RigidBody3D" unique_id=742827593]
+collision_layer = 255
+collision_mask = 255
+mass = 3.0
+physics_material_override = SubResource("PhysicsMaterial_ql185")
+gravity_scale = 0.7
+can_sleep = false
+continuous_cd = true
+contact_monitor = true
+max_contacts_reported = 10
+script = ExtResource("1_ql185")
+bounce_force = 4.0
+bounce_up_ratio = 0.5
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1197100670]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.043792725, 0)
+shape = SubResource("CylinderShape3D_ql185")
+
+[node name="gomibako" parent="." unique_id=532982078 instance=ExtResource("2_74hsy")]
