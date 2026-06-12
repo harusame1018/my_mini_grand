@@ -1,7 +1,7 @@
 extends RigidBody3D
 
-@export var bounce_force:float = 3.0
-@export var bounce_up_ratio:float = 0.7
+@export var bounce_force:float = 10.0
+@export var bounce_up_ratio:float = 2
 @export var cooldown_time: float = 0.3
 
 var _can_bounce:bool = true
@@ -13,6 +13,7 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 		var collider = state.get_contact_collider_object(i)
 		if collider == null: continue
 		if collider.is_in_group("stage"): continue
+		if collider is CharacterBody3D: continue
 		var normal = state.get_contact_local_normal(i)
 		normal.y += bounce_up_ratio
 		normal = normal.normalized()

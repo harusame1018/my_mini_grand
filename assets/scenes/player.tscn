@@ -13,7 +13,7 @@ height = 1.3754272
 radius = 1.7446289
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_i3pqv"]
-size = Vector3(0.529541, 1, 1.2365723)
+size = Vector3(0.529541, 1, 1.6461182)
 
 [node name="player" type="CharacterBody3D" unique_id=1595513588 groups=["players"]]
 collision_layer = 2
@@ -87,11 +87,11 @@ shape = SubResource("CylinderShape3D_hqtel")
 [node name="punch_area" type="Area3D" parent="." unique_id=105443705]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="punch_area" unique_id=706986129]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.056274414, 0, 0.6077881)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.056274414, 0, 0.40301514)
 shape = SubResource("BoxShape3D_i3pqv")
 
 [node name="punch_pos" type="Node3D" parent="." unique_id=758772547]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.20791794, -2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25697136, -2.708384)
 
 [connection signal="body_entered" from="car_interact" to="." method="_on_car_interact_body_entered"]
 [connection signal="body_exited" from="car_interact" to="." method="_on_car_interact_body_exited"]

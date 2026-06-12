@@ -21,8 +21,6 @@ continuous_cd = true
 contact_monitor = true
 max_contacts_reported = 10
 script = ExtResource("1_ql185")
-bounce_force = 4.0
-bounce_up_ratio = 0.5
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1197100670]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.043792725, 0)
