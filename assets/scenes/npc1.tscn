@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dieh5fafa5ti4"]
+
+[ext_resource type="Script" uid="uid://0pspn3kcs7s4" path="res://assets/scripts/npc1.gd" id="1_14wgf"]
+[ext_resource type="PackedScene" uid="uid://cummqhp16kgbh" path="res://assets/models/Idle.fbx" id="2_enef4"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_qq1ak"]
+height = 1.841919
+radius = 1.4667969
+
+[node name="NPC" type="Area3D" unique_id=1852503042]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_14wgf")
+
+[node name="Idle" parent="." unique_id=183119214 instance=ExtResource("2_enef4")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1601326030]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84906006, 0)
+shape = SubResource("CylinderShape3D_qq1ak")
+
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

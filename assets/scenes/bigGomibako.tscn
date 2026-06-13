@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cbg0qexa0mpow"]
+
+[ext_resource type="PackedScene" uid="uid://bxv7ikowf5dqa" path="res://assets/models/gomibako.glb" id="1_knk31"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cj42w"]
+size = Vector3(11.45266, 15, 12.524444)
+
+[node name="StaticBody3D" type="StaticBody3D" unique_id=1729344075]
+collision_layer = 3
+collision_mask = 3
+
+[node name="gomibako" parent="." unique_id=532982078 instance=ExtResource("1_knk31")]
+transform = Transform3D(15, 0, 0, 0, 15, 0, 0, 0, 15, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2147260857]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.06430328, 0.013534546, 0.18800354)
+shape = SubResource("BoxShape3D_cj42w")

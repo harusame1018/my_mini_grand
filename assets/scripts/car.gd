@@ -4,6 +4,7 @@ extends VehicleBody3D
 const MAX_STEER = 0.8
 const ENGINE_POWER = 300
 var can_move_car = false
+@export var is_object:bool
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	pass
@@ -26,7 +27,6 @@ func _process(delta: float) -> void:
 		return
 	steering = move_toward(steering,Input.get_axis("move_right","move_left") * MAX_STEER,delta * 2.5)
 	engine_force = Input.get_axis("move_back","move_forward") * ENGINE_POWER
-	print(steering)
 func this_is_car():
 	can_move_car = false
 	await get_tree().create_timer(1).timeout

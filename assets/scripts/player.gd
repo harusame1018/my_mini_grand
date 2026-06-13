@@ -13,6 +13,9 @@ var current_car = ""
 var punch_is_colliding = false
 var punch_colliding_body:Node3D = null
 var is_attack = false
+var can_talk_npc = false
+var talk_npc = ""
+var canmove = true
 const JUMP_VELOCITY = 4.5
 const dash_speed = 17.0
 const normal_speed = 5.0
@@ -30,6 +33,7 @@ func _process(delta: float) -> void:
 			global_position = child.global_position
 func _physics_process(delta: float) -> void:
 	if !Global.current_controller == "player": return
+	if !canmove: return
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -37,20 +41,36 @@ func _physics_process(delta: float) -> void:
 		velocity.y += 6
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
+	if Input.is_action_just_pressed("reset_position"):
+		global_position = Vector3(0,6.843,0)
 	if Input.is_action_just_pressed("interact"):
 		if is_near_car:
 			Global.current_controller = "car"
 			self.hide()
-			for child in get_node("/root/main").get_children():
+			for child in get_node("/root/main/cars").get_children():
 				if !child.name == car_name:
 					continue
 				$SpringArm3D/Camera3D.current = false
-				get_node("/root/main/" + child.name + "/Camera3D").current = true
+				get_node("/root/main/cars/" + child.name + "/Camera3D").current = true
 				child.this_is_car()
 				current_car = car_name
 				$CollisionShape3D.disabled = true
 				is_near_car = false
 				interact_view.hide()
+		if can_talk_npc:
+			for child in get_node("/root/main/npcs").get_children():
+				if !child.name == talk_npc: continue
+				canmove = false
+				$Control/dialog.show()
+				$Control/dialog/Label.text = child.line
+				$Control/dialog/Label2.text = child.self_name
+				Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+				await $Control/dialog/Button.pressed
+				$Control/dialog.hide()
+				$Control/dialog/Label.text = ""
+				$Control/dialog/Label2.text = ""
+				canmove = true
+				Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	if Input.is_action_just_pressed("punch") and not $model/AnimationPlayer.is_playing() and not is_attack:
 		is_attack = true
 		$model/AnimationPlayer.play("punch")
@@ -98,6 +118,7 @@ func _physics_process(delta: float) -> void:
 func _on_car_interact_body_entered(body: Node3D) -> void:
 	if !body.has_method("this_is_car"): return
 	if !Global.current_controller == "player": return
+	if body.is_object: return
 	car_name = body.name
 	is_near_car = true
 	interact_view.show()

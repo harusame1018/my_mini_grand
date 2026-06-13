@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://chk56xish74e8"]
+
+[ext_resource type="PackedScene" uid="uid://80mvoeuetbgr" path="res://assets/scenes/car.tscn" id="1_3du7i"]
+
+[node name="objectcar" type="Node3D" unique_id=118323492]
+
+[node name="car" parent="." unique_id=1197701520 instance=ExtResource("1_3du7i")]
+is_object = true

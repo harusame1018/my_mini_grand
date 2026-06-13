@@ -1,0 +1,80 @@
+[gd_scene format=3 uid="uid://dqujt0yu2fk60"]
+
+[ext_resource type="Script" uid="uid://y1cmb50nnnyi" path="res://assets/scripts/movie.gd" id="1_so3pc"]
+[ext_resource type="PackedScene" uid="uid://dqe3i21ttsxp4" path="res://assets/scenes/new_odi.tscn" id="1_yxafk"]
+[ext_resource type="PackedScene" uid="uid://bxv7ikowf5dqa" path="res://assets/models/gomibako.glb" id="3_ky332"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tiidx"]
+albedo_color = Color(0, 0, 0, 1)
+
+[node name="movie" type="Node3D" unique_id=124407984]
+script = ExtResource("1_so3pc")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=2085311776]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.74502563, 0, -2.2573242)
+size = Vector3(16.044983, 1, 17.14746)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1143908054]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.74502563, 9.740935, -2.2573242)
+size = Vector3(16.044983, 1, 17.14746)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=1539663310]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.7706146, 4.5934744, -2.2573242)
+size = Vector3(1.0137024, 11.294922, 17.14746)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=92721584]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.155853, 4.5934744, -2.2573242)
+size = Vector3(1.0137024, 11.294922, 17.14746)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=435944219]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.225894, 4.5934744, 5.614563)
+size = Vector3(17.656864, 11.294922, 1.4036865)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=1018722794]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.225894, 4.5934744, -10.842358)
+size = Vector3(17.656864, 11.294922, 1.4036865)
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1983642316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.326357, -2.3895378)
+omni_range = 14.697
+
+[node name="CSGBox3D7" type="CSGBox3D" parent="." unique_id=100708328]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6591797, 2.217415, 4.8270774)
+size = Vector3(4.3183594, 2.2046509, 1)
+material = SubResource("StandardMaterial3D_tiidx")
+
+[node name="Label3D" type="Label3D" parent="CSGBox3D7" unique_id=2102279444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.688056)
+visible = false
+pixel_size = 0.006
+text = "Permission granted"
+
+[node name="new_odi" parent="." unique_id=1224634795 instance=ExtResource("1_yxafk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.98383665, 0.8259537, 3.401108)
+
+[node name="gomibako" parent="." unique_id=532982078 instance=ExtResource("3_ky332")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5745499, 1.5038476, 3.0960717)
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=628924618]
+transform = Transform3D(-0.6768759, 0, -0.73609716, 0, 1, 0, 0.73609716, 0, -0.6768759, 0.36658812, 1.545193, -1.3369617)
+
+[node name="Marker3D" type="Marker3D" parent="." unique_id=1099011433]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.244, 1.545, 1.252)
+
+[node name="Marker3D2" type="Marker3D" parent="." unique_id=168018296]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.002, 1.545, -5.725)
+
+[node name="Marker3D3" type="Marker3D" parent="." unique_id=66168733]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.37989604, 1.545, -1.2369752)
+
+[node name="Label" type="Label" parent="." unique_id=703373590]
+offset_left = 348.0
+offset_top = 596.0
+offset_right = 822.0
+offset_bottom = 636.0
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1086243283]
+visible = false
+offset_right = 1353.0
+offset_bottom = 757.0
+color = Color(0, 0, 0, 1)

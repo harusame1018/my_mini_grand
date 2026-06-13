@@ -8,6 +8,9 @@
 radius = 0.34472656
 height = 1.8581543
 
+[sub_resource type="LabelSettings" id="LabelSettings_14505"]
+font_size = 24
+
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_hqtel"]
 height = 1.3754272
 radius = 1.7446289
@@ -77,6 +80,38 @@ offset_top = 11.0
 offset_right = 120.0
 offset_bottom = 34.0
 text = "Press E key to ride car"
+
+[node name="dialog" type="Panel" parent="Control" unique_id=1586738639]
+visible = false
+layout_mode = 0
+offset_left = 158.0
+offset_top = 405.0
+offset_right = 975.0
+offset_bottom = 508.0
+
+[node name="Label" type="Label" parent="Control/dialog" unique_id=111505570]
+layout_mode = 0
+offset_left = 34.0
+offset_top = 23.0
+offset_right = 777.0
+offset_bottom = 82.0
+autowrap_mode = 3
+
+[node name="Button" type="Button" parent="Control/dialog" unique_id=1137381215]
+layout_mode = 0
+offset_left = 788.0
+offset_top = 73.0
+offset_right = 836.0
+offset_bottom = 104.0
+text = "close"
+
+[node name="Label2" type="Label" parent="Control/dialog" unique_id=1179453802]
+layout_mode = 0
+offset_left = 39.0
+offset_top = -12.0
+offset_right = 79.0
+offset_bottom = 22.0
+label_settings = SubResource("LabelSettings_14505")
 
 [node name="car_interact" type="Area3D" parent="." unique_id=173059175]
 
