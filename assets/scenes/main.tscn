@@ -22,6 +22,9 @@ background_mode = 2
 sky = SubResource("Sky_h2yge")
 tonemap_mode = 2
 glow_enabled = true
+fog_enabled = true
+fog_light_energy = 1.5
+fog_density = 0.005
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_h2yge"]
 size = Vector2(1024, 1024)
@@ -137,6 +140,246 @@ transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9
 [node name="CSGBox3D32" parent="stages" unique_id=978509404 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 43.267597, 5, 55.642986)
 
+[node name="CSGBox3D116" parent="stages" unique_id=552408333 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -66.44299, 5, 67.172264)
+
+[node name="CSGBox3D117" parent="stages" unique_id=1170823460 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -78.748, 5, 67.15766)
+
+[node name="CSGBox3D118" parent="stages" unique_id=420847788 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -92.79821, 5, 67.14099)
+
+[node name="CSGBox3D119" parent="stages" unique_id=1834753849 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -104.25141, 5, 67.1274)
+
+[node name="CSGBox3D120" parent="stages" unique_id=1308892178 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -115.7342, 5, 67.11378)
+
+[node name="CSGBox3D121" parent="stages" unique_id=454461537 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -127.29894, 5, 67.100044)
+
+[node name="CSGBox3D122" parent="stages" unique_id=555645054 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -54.714134, 5, 67.18619)
+
+[node name="CSGBox3D123" parent="stages" unique_id=1505370586 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -43.004593, 5, 67.20008)
+
+[node name="CSGBox3D124" parent="stages" unique_id=2018909756 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 26.614605, 5, 67.172264)
+
+[node name="CSGBox3D125" parent="stages" unique_id=893277811 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 14.309597, 5, 67.15766)
+
+[node name="CSGBox3D126" parent="stages" unique_id=1377269606 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 0.25938797, 5, 67.14099)
+
+[node name="CSGBox3D127" parent="stages" unique_id=1584500670 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -11.193813, 5, 67.1274)
+
+[node name="CSGBox3D128" parent="stages" unique_id=1364313537 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -22.676601, 5, 67.11378)
+
+[node name="CSGBox3D129" parent="stages" unique_id=636239571 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -34.241344, 5, 67.100044)
+
+[node name="CSGBox3D130" parent="stages" unique_id=195086600 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 38.343464, 5, 67.18619)
+
+[node name="CSGBox3D131" parent="stages" unique_id=1250004890 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 50.053005, 5, 67.20008)
+
+[node name="CSGBox3D132" parent="stages" unique_id=1184816819 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -73.2284, 5, 75.68627)
+
+[node name="CSGBox3D133" parent="stages" unique_id=668260397 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -85.53341, 5, 75.67167)
+
+[node name="CSGBox3D134" parent="stages" unique_id=1036370562 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -99.58362, 5, 75.655)
+
+[node name="CSGBox3D135" parent="stages" unique_id=1393409850 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -111.03682, 5, 75.64141)
+
+[node name="CSGBox3D136" parent="stages" unique_id=1786306885 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -122.51961, 5, 75.627785)
+
+[node name="CSGBox3D137" parent="stages" unique_id=1939164177 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -134.08435, 5, 75.61405)
+
+[node name="CSGBox3D138" parent="stages" unique_id=1066201025 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -61.499542, 5, 75.700195)
+
+[node name="CSGBox3D139" parent="stages" unique_id=1580963659 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -49.79, 5, 75.71409)
+
+[node name="CSGBox3D140" parent="stages" unique_id=85443707 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 19.829197, 5, 75.68627)
+
+[node name="CSGBox3D141" parent="stages" unique_id=722948612 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 7.524189, 5, 75.67167)
+
+[node name="CSGBox3D142" parent="stages" unique_id=1585473833 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -6.52602, 5, 75.655)
+
+[node name="CSGBox3D143" parent="stages" unique_id=558454302 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -17.979221, 5, 75.64141)
+
+[node name="CSGBox3D144" parent="stages" unique_id=898677564 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -29.46201, 5, 75.627785)
+
+[node name="CSGBox3D145" parent="stages" unique_id=1523336453 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -41.026752, 5, 75.61405)
+
+[node name="CSGBox3D146" parent="stages" unique_id=553566570 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 31.558056, 5, 75.700195)
+
+[node name="CSGBox3D147" parent="stages" unique_id=1961911473 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 43.267597, 5, 75.71409)
+
+[node name="CSGBox3D148" parent="stages" unique_id=1096794120 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -69.15549, 5, 83.95533)
+
+[node name="CSGBox3D149" parent="stages" unique_id=992987459 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -81.460495, 5, 83.94073)
+
+[node name="CSGBox3D150" parent="stages" unique_id=1712216871 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -95.510704, 5, 83.92406)
+
+[node name="CSGBox3D151" parent="stages" unique_id=1814055491 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -106.963905, 5, 83.91047)
+
+[node name="CSGBox3D152" parent="stages" unique_id=1841459563 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -118.44669, 5, 83.89684)
+
+[node name="CSGBox3D153" parent="stages" unique_id=1291627343 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -130.01144, 5, 83.88311)
+
+[node name="CSGBox3D154" parent="stages" unique_id=605860506 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -57.42663, 5, 83.96925)
+
+[node name="CSGBox3D155" parent="stages" unique_id=662756269 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -45.717087, 5, 83.98315)
+
+[node name="CSGBox3D156" parent="stages" unique_id=1443004370 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 23.902111, 5, 83.95533)
+
+[node name="CSGBox3D157" parent="stages" unique_id=1524646526 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 11.597103, 5, 83.94073)
+
+[node name="CSGBox3D158" parent="stages" unique_id=778029311 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -2.453106, 5, 83.92406)
+
+[node name="CSGBox3D159" parent="stages" unique_id=1613518365 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -13.906307, 5, 83.91047)
+
+[node name="CSGBox3D160" parent="stages" unique_id=1843190610 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -25.389095, 5, 83.89684)
+
+[node name="CSGBox3D161" parent="stages" unique_id=758850999 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -36.95384, 5, 83.88311)
+
+[node name="CSGBox3D162" parent="stages" unique_id=1651280036 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 35.63097, 5, 83.96925)
+
+[node name="CSGBox3D163" parent="stages" unique_id=1785209965 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 47.34051, 5, 83.98315)
+
+[node name="CSGBox3D288" parent="stages" unique_id=1950838065 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -77.93555, 5, 90.8951)
+
+[node name="CSGBox3D289" parent="stages" unique_id=14352535 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -90.240555, 5, 90.8805)
+
+[node name="CSGBox3D290" parent="stages" unique_id=1785403850 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -104.290764, 5, 90.86383)
+
+[node name="CSGBox3D291" parent="stages" unique_id=1481397208 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -115.743965, 5, 90.85024)
+
+[node name="CSGBox3D292" parent="stages" unique_id=30817141 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -127.22675, 5, 90.83662)
+
+[node name="CSGBox3D293" parent="stages" unique_id=1892706909 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -138.7915, 5, 90.82288)
+
+[node name="CSGBox3D294" parent="stages" unique_id=1710040777 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -66.20669, 5, 90.90903)
+
+[node name="CSGBox3D295" parent="stages" unique_id=472249673 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -54.497147, 5, 90.92292)
+
+[node name="CSGBox3D296" parent="stages" unique_id=1638048445 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 15.122051, 5, 90.8951)
+
+[node name="CSGBox3D297" parent="stages" unique_id=488879692 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 2.8170433, 5, 90.8805)
+
+[node name="CSGBox3D298" parent="stages" unique_id=1819534150 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -11.233166, 5, 90.86383)
+
+[node name="CSGBox3D299" parent="stages" unique_id=767420497 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -22.686367, 5, 90.85024)
+
+[node name="CSGBox3D300" parent="stages" unique_id=545845688 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -34.169155, 5, 90.83662)
+
+[node name="CSGBox3D301" parent="stages" unique_id=408722264 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -45.7339, 5, 90.82288)
+
+[node name="CSGBox3D302" parent="stages" unique_id=2071726008 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 26.85091, 5, 90.90903)
+
+[node name="CSGBox3D303" parent="stages" unique_id=2119573140 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 38.56045, 5, 90.92292)
+
+[node name="CSGBox3D304" parent="stages" unique_id=83672478 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -72.262314, 5, 97.8951)
+
+[node name="CSGBox3D305" parent="stages" unique_id=2082905204 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -84.56732, 5, 97.8805)
+
+[node name="CSGBox3D306" parent="stages" unique_id=1681585454 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -98.61754, 5, 97.86383)
+
+[node name="CSGBox3D307" parent="stages" unique_id=1621610039 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -110.07074, 5, 97.85024)
+
+[node name="CSGBox3D308" parent="stages" unique_id=381937364 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -121.55353, 5, 97.83662)
+
+[node name="CSGBox3D309" parent="stages" unique_id=354626560 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -133.11827, 5, 97.82288)
+
+[node name="CSGBox3D310" parent="stages" unique_id=1150771416 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -60.533455, 5, 97.90903)
+
+[node name="CSGBox3D311" parent="stages" unique_id=493932655 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -48.823914, 5, 97.92292)
+
+[node name="CSGBox3D312" parent="stages" unique_id=1625276119 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 20.795284, 5, 97.8951)
+
+[node name="CSGBox3D313" parent="stages" unique_id=1278720012 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 8.490276, 5, 97.8805)
+
+[node name="CSGBox3D314" parent="stages" unique_id=188344448 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -5.5599327, 5, 97.86383)
+
+[node name="CSGBox3D315" parent="stages" unique_id=312188316 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -17.013134, 5, 97.85024)
+
+[node name="CSGBox3D316" parent="stages" unique_id=938032438 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -28.495922, 5, 97.83662)
+
+[node name="CSGBox3D317" parent="stages" unique_id=594371021 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, -40.060665, 5, 97.82288)
+
+[node name="CSGBox3D318" parent="stages" unique_id=333338565 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 32.524143, 5, 97.90903)
+
+[node name="CSGBox3D319" parent="stages" unique_id=1230153230 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-0.9999993, 0, 0.00118676, 0, 1, 0, -0.00118676, 0, -0.9999993, 44.233685, 5, 97.92292)
+
 [node name="CSGBox3D2" parent="stages" unique_id=1034363736 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -111.05586, 5, -26.530165)
 
@@ -179,6 +422,294 @@ transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 32.56206, 5
 [node name="CSGBox3D22" parent="stages" unique_id=705029916 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 44.105633, 5, -35.40841)
 
+[node name="CSGBox3D68" parent="stages" unique_id=695779592 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -91.28168, 5, -37.49477)
+
+[node name="CSGBox3D69" parent="stages" unique_id=1784334018 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -77.25719, 5, -38.344685)
+
+[node name="CSGBox3D70" parent="stages" unique_id=1100296986 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -65.82496, 5, -39.037502)
+
+[node name="CSGBox3D71" parent="stages" unique_id=184067497 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -54.36319, 5, -39.73211)
+
+[node name="CSGBox3D72" parent="stages" unique_id=1563454375 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -42.81962, 5, -40.43167)
+
+[node name="CSGBox3D73" parent="stages" unique_id=1896569740 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -115.27155, 5, -36.040936)
+
+[node name="CSGBox3D74" parent="stages" unique_id=1319180714 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -126.95965, 5, -35.33261)
+
+[node name="CSGBox3D75" parent="stages" unique_id=1345370040 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -9.147203, 5, -41.947426)
+
+[node name="CSGBox3D76" parent="stages" unique_id=57531448 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.135275, 5, -42.691765)
+
+[node name="CSGBox3D77" parent="stages" unique_id=659930470 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 17.159765, 5, -43.54168)
+
+[node name="CSGBox3D78" parent="stages" unique_id=2015894158 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 28.591993, 5, -44.234497)
+
+[node name="CSGBox3D79" parent="stages" unique_id=1409753552 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 40.053764, 5, -44.929108)
+
+[node name="CSGBox3D80" parent="stages" unique_id=1461482394 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 51.597336, 5, -45.62867)
+
+[node name="CSGBox3D81" parent="stages" unique_id=946925973 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -20.8546, 5, -42.076233)
+
+[node name="CSGBox3D82" parent="stages" unique_id=652619295 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -32.542694, 5, -41.367912)
+
+[node name="CSGBox3D83" parent="stages" unique_id=1292279458 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -103.564156, 5, -36.044212)
+
+[node name="CSGBox3D84" parent="stages" unique_id=462914019 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -98.773384, 5, -47.2905)
+
+[node name="CSGBox3D85" parent="stages" unique_id=1152838317 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -84.74889, 5, -48.140415)
+
+[node name="CSGBox3D86" parent="stages" unique_id=511953223 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -73.316666, 5, -48.833233)
+
+[node name="CSGBox3D87" parent="stages" unique_id=170984251 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -61.854893, 5, -49.52784)
+
+[node name="CSGBox3D88" parent="stages" unique_id=652357135 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -50.31132, 5, -50.2274)
+
+[node name="CSGBox3D89" parent="stages" unique_id=1152326906 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -122.76326, 5, -45.836666)
+
+[node name="CSGBox3D90" parent="stages" unique_id=1286702209 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -134.45135, 5, -45.12834)
+
+[node name="CSGBox3D91" parent="stages" unique_id=300787145 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -16.638908, 5, -51.743156)
+
+[node name="CSGBox3D92" parent="stages" unique_id=1632236464 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -4.35643, 5, -52.487495)
+
+[node name="CSGBox3D93" parent="stages" unique_id=600190736 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 9.66806, 5, -53.33741)
+
+[node name="CSGBox3D94" parent="stages" unique_id=360574152 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 21.100288, 5, -54.030228)
+
+[node name="CSGBox3D95" parent="stages" unique_id=2147461878 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 32.56206, 5, -54.72484)
+
+[node name="CSGBox3D96" parent="stages" unique_id=995070776 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 44.105633, 5, -55.4244)
+
+[node name="CSGBox3D97" parent="stages" unique_id=642581197 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -28.346306, 5, -51.871964)
+
+[node name="CSGBox3D98" parent="stages" unique_id=1526030961 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -40.0344, 5, -51.163643)
+
+[node name="CSGBox3D99" parent="stages" unique_id=1519763940 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -111.05586, 5, -45.839943)
+
+[node name="CSGBox3D100" parent="stages" unique_id=1611472026 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -105.49103, 5, -56.444218)
+
+[node name="CSGBox3D101" parent="stages" unique_id=2061142041 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -91.46654, 5, -57.294132)
+
+[node name="CSGBox3D102" parent="stages" unique_id=182527334 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -80.03431, 5, -57.98695)
+
+[node name="CSGBox3D103" parent="stages" unique_id=39293393 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -68.57253, 5, -58.681557)
+
+[node name="CSGBox3D104" parent="stages" unique_id=141379870 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -57.028965, 5, -59.38112)
+
+[node name="CSGBox3D105" parent="stages" unique_id=237530920 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -129.4809, 5, -54.990383)
+
+[node name="CSGBox3D106" parent="stages" unique_id=1561388767 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -141.169, 5, -54.28206)
+
+[node name="CSGBox3D107" parent="stages" unique_id=760388199 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -23.356552, 5, -60.896873)
+
+[node name="CSGBox3D108" parent="stages" unique_id=1036925923 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -11.074074, 5, -61.641212)
+
+[node name="CSGBox3D109" parent="stages" unique_id=1642593749 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 2.9504166, 5, -62.491127)
+
+[node name="CSGBox3D110" parent="stages" unique_id=1184425888 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 14.382645, 5, -63.183945)
+
+[node name="CSGBox3D111" parent="stages" unique_id=149511032 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 25.844418, 5, -63.878555)
+
+[node name="CSGBox3D112" parent="stages" unique_id=347719529 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 37.38799, 5, -64.57812)
+
+[node name="CSGBox3D113" parent="stages" unique_id=988746975 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -35.06395, 5, -61.02568)
+
+[node name="CSGBox3D114" parent="stages" unique_id=648451033 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -46.752045, 5, -60.31736)
+
+[node name="CSGBox3D115" parent="stages" unique_id=979395885 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -117.773506, 5, -54.99366)
+
+[node name="CSGBox3D320" parent="stages" unique_id=1984188240 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -105.49103, 5, -65.29857)
+
+[node name="CSGBox3D321" parent="stages" unique_id=499403214 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -91.46654, 5, -66.14848)
+
+[node name="CSGBox3D322" parent="stages" unique_id=1691628229 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -80.03431, 5, -66.84129)
+
+[node name="CSGBox3D323" parent="stages" unique_id=520818255 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -68.57253, 5, -67.535904)
+
+[node name="CSGBox3D324" parent="stages" unique_id=1535196995 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -57.028965, 5, -68.235466)
+
+[node name="CSGBox3D325" parent="stages" unique_id=1661807847 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -129.4809, 5, -63.84473)
+
+[node name="CSGBox3D326" parent="stages" unique_id=249893867 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -141.169, 5, -63.136406)
+
+[node name="CSGBox3D327" parent="stages" unique_id=945378546 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -23.356552, 5, -69.75122)
+
+[node name="CSGBox3D328" parent="stages" unique_id=11471649 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -11.074074, 5, -70.49556)
+
+[node name="CSGBox3D329" parent="stages" unique_id=266668231 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 2.9504166, 5, -71.345474)
+
+[node name="CSGBox3D330" parent="stages" unique_id=192889791 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 14.382645, 5, -72.03829)
+
+[node name="CSGBox3D331" parent="stages" unique_id=1624027957 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 25.844418, 5, -72.7329)
+
+[node name="CSGBox3D332" parent="stages" unique_id=565225197 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 37.38799, 5, -73.432465)
+
+[node name="CSGBox3D333" parent="stages" unique_id=1533257771 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -35.06395, 5, -69.88003)
+
+[node name="CSGBox3D334" parent="stages" unique_id=403880517 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -46.752045, 5, -69.17171)
+
+[node name="CSGBox3D335" parent="stages" unique_id=2037255444 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -117.773506, 5, -63.848007)
+
+[node name="CSGBox3D336" parent="stages" unique_id=16527370 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -100.50282, 5, -73.766884)
+
+[node name="CSGBox3D337" parent="stages" unique_id=1915638167 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -86.47833, 5, -74.6168)
+
+[node name="CSGBox3D338" parent="stages" unique_id=116342412 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -75.046104, 5, -75.30961)
+
+[node name="CSGBox3D339" parent="stages" unique_id=1579437527 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -63.584328, 5, -76.00422)
+
+[node name="CSGBox3D340" parent="stages" unique_id=999778783 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -52.04076, 5, -76.70378)
+
+[node name="CSGBox3D341" parent="stages" unique_id=1652697969 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -124.49269, 5, -72.31305)
+
+[node name="CSGBox3D342" parent="stages" unique_id=1863178244 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -136.1808, 5, -71.60472)
+
+[node name="CSGBox3D343" parent="stages" unique_id=367949115 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -18.368347, 5, -78.219536)
+
+[node name="CSGBox3D344" parent="stages" unique_id=816861760 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -6.085869, 5, -78.963875)
+
+[node name="CSGBox3D345" parent="stages" unique_id=262408184 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9386215, 5, -79.81379)
+
+[node name="CSGBox3D346" parent="stages" unique_id=807269512 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 19.37085, 5, -80.50661)
+
+[node name="CSGBox3D347" parent="stages" unique_id=2146589466 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 30.832623, 5, -81.20122)
+
+[node name="CSGBox3D348" parent="stages" unique_id=1811755275 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 42.376194, 5, -81.90078)
+
+[node name="CSGBox3D349" parent="stages" unique_id=1771709324 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -30.075745, 5, -78.34834)
+
+[node name="CSGBox3D350" parent="stages" unique_id=635055610 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -41.76384, 5, -77.64002)
+
+[node name="CSGBox3D351" parent="stages" unique_id=248284808 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -112.7853, 5, -72.31632)
+
+[node name="CSGBox3D352" parent="stages" unique_id=501257357 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -100.50282, 5, -80.481476)
+
+[node name="CSGBox3D353" parent="stages" unique_id=615074098 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -86.47833, 5, -81.33139)
+
+[node name="CSGBox3D354" parent="stages" unique_id=1111157452 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -75.046104, 5, -82.0242)
+
+[node name="CSGBox3D355" parent="stages" unique_id=79635742 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -63.584328, 5, -82.71881)
+
+[node name="CSGBox3D356" parent="stages" unique_id=1358599593 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -52.04076, 5, -83.41837)
+
+[node name="CSGBox3D357" parent="stages" unique_id=1295635865 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -124.49269, 5, -79.02764)
+
+[node name="CSGBox3D358" parent="stages" unique_id=1975020009 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -136.1808, 5, -78.31931)
+
+[node name="CSGBox3D359" parent="stages" unique_id=919516274 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -18.368347, 5, -84.93413)
+
+[node name="CSGBox3D360" parent="stages" unique_id=634750196 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -6.085869, 5, -85.67847)
+
+[node name="CSGBox3D361" parent="stages" unique_id=1238166041 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9386215, 5, -86.52838)
+
+[node name="CSGBox3D362" parent="stages" unique_id=2068006749 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 19.37085, 5, -87.2212)
+
+[node name="CSGBox3D363" parent="stages" unique_id=1316567115 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 30.832623, 5, -87.91581)
+
+[node name="CSGBox3D364" parent="stages" unique_id=1581170191 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 42.376194, 5, -88.61537)
+
+[node name="CSGBox3D365" parent="stages" unique_id=269535812 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -30.075745, 5, -85.062935)
+
+[node name="CSGBox3D366" parent="stages" unique_id=1691001185 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -41.76384, 5, -84.354614)
+
+[node name="CSGBox3D367" parent="stages" unique_id=1932425459 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -112.7853, 5, -79.030914)
+
 [node name="CSGBox3D23" parent="stages" unique_id=1021105960 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 0.99999994, -28.346306, 5, -31.017672)
 
@@ -209,8 +740,236 @@ transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.07550
 [node name="CSGBox3D40" parent="stages" unique_id=581581441 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 51.150234, 5.3195057, -25.17075)
 
+[node name="CSGBox3D216" parent="stages" unique_id=2078863869 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 52.2813)
+
+[node name="CSGBox3D217" parent="stages" unique_id=57908634 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 42.154152)
+
+[node name="CSGBox3D218" parent="stages" unique_id=1758529164 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 32.231255)
+
+[node name="CSGBox3D219" parent="stages" unique_id=199140658 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 21.469269)
+
+[node name="CSGBox3D220" parent="stages" unique_id=1082208327 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 10.869514)
+
+[node name="CSGBox3D221" parent="stages" unique_id=518240359 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 0.73106575)
+
+[node name="CSGBox3D222" parent="stages" unique_id=1652840929 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -9.026905)
+
+[node name="CSGBox3D223" parent="stages" unique_id=885382981 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -18.799595)
+
+[node name="CSGBox3D224" parent="stages" unique_id=368532476 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -28.527073)
+
+[node name="CSGBox3D225" parent="stages" unique_id=923423330 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -38.65422)
+
+[node name="CSGBox3D226" parent="stages" unique_id=41623335 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -48.577118)
+
+[node name="CSGBox3D227" parent="stages" unique_id=1614059991 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -59.339104)
+
+[node name="CSGBox3D228" parent="stages" unique_id=1498811843 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -69.93886)
+
+[node name="CSGBox3D229" parent="stages" unique_id=1105561824 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -80.07731)
+
+[node name="CSGBox3D230" parent="stages" unique_id=837051056 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -89.83528)
+
+[node name="CSGBox3D231" parent="stages" unique_id=1558754947 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, -99.60797)
+
+[node name="CSGBox3D232" parent="stages" unique_id=1327093670 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 133.56285)
+
+[node name="CSGBox3D233" parent="stages" unique_id=2142254565 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 123.4357)
+
+[node name="CSGBox3D234" parent="stages" unique_id=1514297631 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 113.5128)
+
+[node name="CSGBox3D235" parent="stages" unique_id=1939930234 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 102.75082)
+
+[node name="CSGBox3D236" parent="stages" unique_id=1609014601 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 92.15106)
+
+[node name="CSGBox3D237" parent="stages" unique_id=602876560 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 82.01261)
+
+[node name="CSGBox3D238" parent="stages" unique_id=1326567628 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 72.25464)
+
+[node name="CSGBox3D239" parent="stages" unique_id=594676879 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 59.386303, 5.3195057, 62.48195)
+
+[node name="CSGBox3D240" parent="stages" unique_id=1724980634 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 74.919846)
+
+[node name="CSGBox3D241" parent="stages" unique_id=173144622 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 64.792694)
+
+[node name="CSGBox3D242" parent="stages" unique_id=1585938514 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 54.869797)
+
+[node name="CSGBox3D243" parent="stages" unique_id=896938644 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 44.10781)
+
+[node name="CSGBox3D244" parent="stages" unique_id=2090001717 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 33.508057)
+
+[node name="CSGBox3D245" parent="stages" unique_id=780925457 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 23.369606)
+
+[node name="CSGBox3D246" parent="stages" unique_id=433504497 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 13.611633)
+
+[node name="CSGBox3D247" parent="stages" unique_id=1854971950 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 69.11458, 5.3195057, 3.8389435)
+
+[node name="CSGBox3D248" parent="stages" unique_id=1494262698 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -3.7346802)
+
+[node name="CSGBox3D249" parent="stages" unique_id=68818601 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -13.861832)
+
+[node name="CSGBox3D250" parent="stages" unique_id=896386970 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -23.784729)
+
+[node name="CSGBox3D251" parent="stages" unique_id=1192661685 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -34.546715)
+
+[node name="CSGBox3D252" parent="stages" unique_id=1180405122 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -45.14647)
+
+[node name="CSGBox3D253" parent="stages" unique_id=1539371288 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -55.28492)
+
+[node name="CSGBox3D254" parent="stages" unique_id=734976483 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -65.04289)
+
+[node name="CSGBox3D255" parent="stages" unique_id=1936645330 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 70.1584, 5.3195057, -74.81558)
+
+[node name="CSGBox3D256" parent="stages" unique_id=645251448 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 2.3908138)
+
+[node name="CSGBox3D257" parent="stages" unique_id=1635041423 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, -7.7363377)
+
+[node name="CSGBox3D258" parent="stages" unique_id=1047093442 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, -17.659235)
+
+[node name="CSGBox3D259" parent="stages" unique_id=390039496 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, -28.42122)
+
+[node name="CSGBox3D260" parent="stages" unique_id=842223831 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, -39.020973)
+
+[node name="CSGBox3D261" parent="stages" unique_id=1174924155 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, -49.159424)
+
+[node name="CSGBox3D262" parent="stages" unique_id=461886067 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, -58.917397)
+
+[node name="CSGBox3D263" parent="stages" unique_id=1542572036 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, -68.69009)
+
+[node name="CSGBox3D264" parent="stages" unique_id=1510590262 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 80.827065)
+
+[node name="CSGBox3D265" parent="stages" unique_id=877597610 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 70.69991)
+
+[node name="CSGBox3D266" parent="stages" unique_id=920825662 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 60.777016)
+
+[node name="CSGBox3D267" parent="stages" unique_id=1742079072 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 50.01503)
+
+[node name="CSGBox3D268" parent="stages" unique_id=1181445484 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 39.415276)
+
+[node name="CSGBox3D269" parent="stages" unique_id=818382934 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 29.276825)
+
+[node name="CSGBox3D270" parent="stages" unique_id=345872967 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 19.518852)
+
+[node name="CSGBox3D271" parent="stages" unique_id=1116695454 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 76.5423, 5.3195057, 9.746162)
+
+[node name="CSGBox3D272" parent="stages" unique_id=1324311888 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 75.457275)
+
+[node name="CSGBox3D273" parent="stages" unique_id=172499503 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 65.330124)
+
+[node name="CSGBox3D274" parent="stages" unique_id=1903747886 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 55.407227)
+
+[node name="CSGBox3D275" parent="stages" unique_id=180820053 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 44.64524)
+
+[node name="CSGBox3D276" parent="stages" unique_id=889406638 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 34.045486)
+
+[node name="CSGBox3D277" parent="stages" unique_id=112924486 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 23.907036)
+
+[node name="CSGBox3D278" parent="stages" unique_id=235881318 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 14.149063)
+
+[node name="CSGBox3D279" parent="stages" unique_id=1627160520 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, 4.3763733)
+
+[node name="CSGBox3D280" parent="stages" unique_id=1191815523 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -3.5402622)
+
+[node name="CSGBox3D281" parent="stages" unique_id=1038392625 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -13.667414)
+
+[node name="CSGBox3D282" parent="stages" unique_id=309809403 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -23.590311)
+
+[node name="CSGBox3D283" parent="stages" unique_id=704013655 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -34.352295)
+
+[node name="CSGBox3D284" parent="stages" unique_id=2124651872 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -44.95205)
+
+[node name="CSGBox3D285" parent="stages" unique_id=1612380644 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -55.0905)
+
+[node name="CSGBox3D286" parent="stages" unique_id=124365485 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -64.84847)
+
+[node name="CSGBox3D287" parent="stages" unique_id=2024411694 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, -0.9049988, 0, 0.81137145, 0, 1.075508, 0, -3.9558753e-08, 85.398926, 5.3195057, -74.62116)
+
 [node name="CSGBox3D41" parent="stages" unique_id=1204066801 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, 45.910145)
+
+[node name="CSGBox3D167" parent="stages" unique_id=282701638 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, 55.406742)
+
+[node name="CSGBox3D168" parent="stages" unique_id=1884438301 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, 66.40674)
+
+[node name="CSGBox3D169" parent="stages" unique_id=1724013733 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, 75.40674)
+
+[node name="CSGBox3D170" parent="stages" unique_id=1862914704 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, 85.40674)
 
 [node name="CSGBox3D42" parent="stages" unique_id=1238239154 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, 35.782997)
@@ -232,6 +991,240 @@ transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.07550
 
 [node name="CSGBox3D48" parent="stages" unique_id=1870761157 instance=ExtResource("1_ig7tw")]
 transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, -25.17075)
+
+[node name="CSGBox3D164" parent="stages" unique_id=1930935947 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, -33.54003)
+
+[node name="CSGBox3D165" parent="stages" unique_id=1212395198 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, -44.325245)
+
+[node name="CSGBox3D166" parent="stages" unique_id=1025285487 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -143.50133, 5.3195057, -54.45159)
+
+[node name="CSGBox3D171" parent="stages" unique_id=1234112536 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 40.71878)
+
+[node name="CSGBox3D172" parent="stages" unique_id=824994752 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 50.215378)
+
+[node name="CSGBox3D173" parent="stages" unique_id=427061127 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 61.215374)
+
+[node name="CSGBox3D174" parent="stages" unique_id=895875840 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 70.21538)
+
+[node name="CSGBox3D175" parent="stages" unique_id=1178648686 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 80.21538)
+
+[node name="CSGBox3D176" parent="stages" unique_id=1833957828 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 30.591633)
+
+[node name="CSGBox3D177" parent="stages" unique_id=1695418270 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 20.668736)
+
+[node name="CSGBox3D178" parent="stages" unique_id=255713318 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, 9.90675)
+
+[node name="CSGBox3D179" parent="stages" unique_id=406229544 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, -0.6930046)
+
+[node name="CSGBox3D180" parent="stages" unique_id=1935589817 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, -10.831453)
+
+[node name="CSGBox3D181" parent="stages" unique_id=1470437247 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, -20.589424)
+
+[node name="CSGBox3D182" parent="stages" unique_id=1772692442 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, -30.362114)
+
+[node name="CSGBox3D183" parent="stages" unique_id=312480277 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, -38.731396)
+
+[node name="CSGBox3D184" parent="stages" unique_id=726151050 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, -49.51661)
+
+[node name="CSGBox3D185" parent="stages" unique_id=804624199 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -152.23582, 5.3195057, -59.642956)
+
+[node name="CSGBox3D186" parent="stages" unique_id=1801220419 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 45.910145)
+
+[node name="CSGBox3D187" parent="stages" unique_id=128490759 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 55.406742)
+
+[node name="CSGBox3D188" parent="stages" unique_id=350513914 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 66.40674)
+
+[node name="CSGBox3D189" parent="stages" unique_id=842891357 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 75.40674)
+
+[node name="CSGBox3D190" parent="stages" unique_id=1586713948 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 85.40674)
+
+[node name="CSGBox3D191" parent="stages" unique_id=472300103 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 35.782997)
+
+[node name="CSGBox3D192" parent="stages" unique_id=1538243044 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 25.8601)
+
+[node name="CSGBox3D193" parent="stages" unique_id=1190260125 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 15.098114)
+
+[node name="CSGBox3D194" parent="stages" unique_id=1270812062 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, 4.4983597)
+
+[node name="CSGBox3D195" parent="stages" unique_id=1388454014 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, -5.640089)
+
+[node name="CSGBox3D196" parent="stages" unique_id=498334255 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, -15.39806)
+
+[node name="CSGBox3D197" parent="stages" unique_id=2073203917 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, -25.17075)
+
+[node name="CSGBox3D198" parent="stages" unique_id=480135453 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, -33.54003)
+
+[node name="CSGBox3D199" parent="stages" unique_id=1268273208 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, -44.325245)
+
+[node name="CSGBox3D200" parent="stages" unique_id=1805776827 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -160.42392, 5.3195057, -54.45159)
+
+[node name="CSGBox3D201" parent="stages" unique_id=1710370260 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, 39.67358)
+
+[node name="CSGBox3D202" parent="stages" unique_id=1540312201 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, 49.170177)
+
+[node name="CSGBox3D203" parent="stages" unique_id=1157598986 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, 60.170174)
+
+[node name="CSGBox3D204" parent="stages" unique_id=1806780522 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, 69.17017)
+
+[node name="CSGBox3D205" parent="stages" unique_id=937658153 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0.0356399, 0.81092584, 1.3108875e-09, -1.0749173, 0.026887013, -3.9537028e-08, -169.87874, 5.3195057, 79.17017)
+
+[node name="CSGBox3D206" parent="stages" unique_id=158290797 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, 29.546432)
+
+[node name="CSGBox3D207" parent="stages" unique_id=830643809 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, 19.623535)
+
+[node name="CSGBox3D208" parent="stages" unique_id=532430140 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, 8.861549)
+
+[node name="CSGBox3D209" parent="stages" unique_id=1655574699 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, -1.738205)
+
+[node name="CSGBox3D210" parent="stages" unique_id=1763315560 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, -11.876654)
+
+[node name="CSGBox3D211" parent="stages" unique_id=1541281666 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, -21.634624)
+
+[node name="CSGBox3D212" parent="stages" unique_id=2036294702 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, -31.407314)
+
+[node name="CSGBox3D213" parent="stages" unique_id=1436235816 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, -39.776596)
+
+[node name="CSGBox3D214" parent="stages" unique_id=1537534581 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, -50.56181)
+
+[node name="CSGBox3D215" parent="stages" unique_id=350223544 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -169.87874, 5.3195057, -60.688156)
+
+[node name="CSGBox3D368" parent="stages" unique_id=614533702 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, 39.67358)
+
+[node name="CSGBox3D369" parent="stages" unique_id=1303760463 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, 49.170177)
+
+[node name="CSGBox3D370" parent="stages" unique_id=304139933 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, 60.170174)
+
+[node name="CSGBox3D371" parent="stages" unique_id=674012203 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, 69.17017)
+
+[node name="CSGBox3D372" parent="stages" unique_id=328075973 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0.0356399, 0.81092584, 1.3108875e-09, -1.0749173, 0.026887013, -3.9537028e-08, -177.57417, 5.3195057, 79.17017)
+
+[node name="CSGBox3D373" parent="stages" unique_id=1827523959 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, 29.546432)
+
+[node name="CSGBox3D374" parent="stages" unique_id=1253015986 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, 19.623535)
+
+[node name="CSGBox3D375" parent="stages" unique_id=454443767 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, 8.861549)
+
+[node name="CSGBox3D376" parent="stages" unique_id=1139894966 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, -1.738205)
+
+[node name="CSGBox3D377" parent="stages" unique_id=34736738 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, -11.876654)
+
+[node name="CSGBox3D378" parent="stages" unique_id=497298347 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, -21.634624)
+
+[node name="CSGBox3D379" parent="stages" unique_id=713376657 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, -31.407314)
+
+[node name="CSGBox3D380" parent="stages" unique_id=1896827412 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, -39.776596)
+
+[node name="CSGBox3D381" parent="stages" unique_id=1012227676 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, -50.56181)
+
+[node name="CSGBox3D382" parent="stages" unique_id=1832795424 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -177.57417, 5.3195057, -60.688156)
+
+[node name="CSGBox3D383" parent="stages" unique_id=684263230 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, 39.67358)
+
+[node name="CSGBox3D384" parent="stages" unique_id=1041189011 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, 49.170177)
+
+[node name="CSGBox3D385" parent="stages" unique_id=1064052367 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, 60.170174)
+
+[node name="CSGBox3D386" parent="stages" unique_id=1614295397 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, 69.17017)
+
+[node name="CSGBox3D387" parent="stages" unique_id=383697873 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0.0356399, 0.81092584, 1.3108875e-09, -1.0749173, 0.026887013, -3.9537028e-08, -185.22392, 5.3195057, 79.17017)
+
+[node name="CSGBox3D388" parent="stages" unique_id=1817558189 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, 29.546432)
+
+[node name="CSGBox3D389" parent="stages" unique_id=1621553667 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, 19.623535)
+
+[node name="CSGBox3D390" parent="stages" unique_id=1086723102 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, 8.861549)
+
+[node name="CSGBox3D391" parent="stages" unique_id=797665864 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, -1.738205)
+
+[node name="CSGBox3D392" parent="stages" unique_id=228152342 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, -11.876654)
+
+[node name="CSGBox3D393" parent="stages" unique_id=1200211181 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, -21.634624)
+
+[node name="CSGBox3D394" parent="stages" unique_id=750526049 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, -31.407314)
+
+[node name="CSGBox3D395" parent="stages" unique_id=477896330 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, -39.776596)
+
+[node name="CSGBox3D396" parent="stages" unique_id=1970101731 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, -50.56181)
+
+[node name="CSGBox3D397" parent="stages" unique_id=469863127 instance=ExtResource("1_ig7tw")]
+transform = Transform3D(-4.7011948e-08, 0, 0.9049988, 0, 0.81137145, 0, -1.075508, 0, -3.9558753e-08, -185.22392, 5.3195057, -60.688156)
 
 [node name="MeshInstance3D2" type="MeshInstance3D" parent="stages" unique_id=1616226813]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 0)
@@ -662,6 +1655,11 @@ is_rocket = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.40591, 0.49948302, 1.6801443)
 is_rocket = true
 
+[node name="gomibako59" parent="objects" unique_id=1924128296 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.29501, 0.49948302, -26.99226)
+bounce_force = 0.0
+bounce_up_ratio = 0.0
+
 [node name="cars" type="Node" parent="." unique_id=1297684887]
 
 [node name="car" parent="cars" unique_id=1531592518 instance=ExtResource("4_1bvp3")]
@@ -672,7 +1670,7 @@ transform = Transform3D(0.61198264, 0, -0.7908712, 0, 1, 0, 0.7908712, 0, 0.6119
 
 [node name="npcs" type="Node" parent="." unique_id=1518189276]
 
-[node name="NPC" parent="npcs" unique_id=1852503042 instance=ExtResource("8_6rsl6")]
+[node name="NPC" parent="npcs" unique_id=431508230 instance=ExtResource("8_6rsl6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.1099734, 4.000418, -3.4976587)
 self_name = "車嫌い"
 line = "おれ、車嫌いだから"
@@ -726,3 +1724,8 @@ line = "ああ、俺の新居！！　俺の新居だ！！"
 transform = Transform3D(-0.11270029, 0, 0.99362904, 0, 1, 0, -0.99362904, 0, -0.11270029, -36.469448, 0.00041822, 0.5604334)
 self_name = "警告する人"
 line = "ここのゴミ箱は危険だぞ..."
+
+[node name="NPC12" parent="npcs" unique_id=1852503042 instance=ExtResource("8_6rsl6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.092865, 0.00041869684, -25.18394)
+self_name = "硬いゴミ箱の持ち主"
+line = "このゴミ箱はだれにも倒せない！！"

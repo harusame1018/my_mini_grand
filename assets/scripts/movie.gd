@@ -28,4 +28,5 @@ func scene2():
 	$CSGBox3D7/Label3D.show()
 	await get_tree().create_timer(1).timeout
 	$ColorRect.show()
+	await get_tree().create_timer(2).timeout
 	get_tree().change_scene_to_file("res://assets/scenes/main.tscn")

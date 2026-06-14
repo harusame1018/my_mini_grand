@@ -14,9 +14,11 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="GTA風"
+config/name="grand_trashbox"
 run/main_scene="uid://dqujt0yu2fk60"
 config/features=PackedStringArray("4.6", "Forward Plus")
+run/max_fps=30
+run/low_processor_mode=true
 config/icon="res://icon.svg"
 
 [autoload]
