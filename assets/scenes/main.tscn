@@ -1660,6 +1660,11 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -40.29501, 0.49948302, -26.99
 bounce_force = 0.0
 bounce_up_ratio = 0.0
 
+[node name="gomibako60" parent="objects" unique_id=1854484361 instance=ExtResource("1_h2yge")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.4384, 0.624483, 31.515015)
+bounce_force = 0.0
+bounce_up_ratio = 0.0
+
 [node name="cars" type="Node" parent="." unique_id=1297684887]
 
 [node name="car" parent="cars" unique_id=1531592518 instance=ExtResource("4_1bvp3")]
@@ -1713,7 +1718,7 @@ line = "大丈夫、僕最強だから落ちないんだ"
 [node name="NPC9" parent="npcs" unique_id=361693124 instance=ExtResource("8_6rsl6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -135.6491, 0.12541822, 58.09162)
 self_name = "おかしな人...?"
-line = "君はこの世界の心理に気が付いたかい？　まあ、こんなに手掛かりが少ないから気づけないのも無理はない。　実は、この世界はゴミ箱によって支配されているんだ。"
+line = "君はこの世界の真理に気が付いたかい？　まあ、こんなに手掛かりが少ないから気づけないのも無理はない。　実は、この世界はゴミ箱によって支配されているんだ。"
 
 [node name="NPC10" parent="npcs" unique_id=2024483132 instance=ExtResource("8_6rsl6")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -52.905403, 0.12541798, 1.2841234)
@@ -1729,3 +1734,23 @@ line = "ここのゴミ箱は危険だぞ..."
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -41.092865, 0.00041869684, -25.18394)
 self_name = "硬いゴミ箱の持ち主"
 line = "このゴミ箱はだれにも倒せない！！"
+
+[node name="NPC13" parent="npcs" unique_id=219807202 instance=ExtResource("8_6rsl6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.49001, 0.12541822, 30.48856)
+self_name = "ゴミ箱研究家"
+line = "ふむ...このゴミ箱は重いようだ"
+
+[node name="NPC14" parent="npcs" unique_id=1563112052 instance=ExtResource("8_6rsl6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.687763, 0.00041822, 44.189713)
+self_name = "苦しがっている人"
+line = "なんかここら辺、臭くないか...?"
+
+[node name="NPC15" parent="npcs" unique_id=41139198 instance=ExtResource("8_6rsl6")]
+transform = Transform3D(-0.3826028, 0, 0.92391294, 0, 1, 0, -0.92391294, 0, -0.3826028, -72.8212, 0.12541822, 5.019207)
+self_name = "歓迎している人"
+line = "お、あの人引っ越してきたのか。パーティー開くか"
+
+[node name="NPC16" parent="npcs" unique_id=2092009919 instance=ExtResource("8_6rsl6")]
+transform = Transform3D(-0.8168529, 0, 0.57684594, 0, 1, 0, -0.57684594, 0, -0.8168529, 19.87574, 0.00041822, -18.41835)
+self_name = "怖がっている人"
+line = "なにあの人、怖い"
