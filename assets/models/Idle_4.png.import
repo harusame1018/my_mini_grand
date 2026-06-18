@@ -4,8 +4,9 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://cf7dlyuykh0tr"
 path.s3tc="res://.godot/imported/Idle_4.png-9a602dbef5b357deaafbd5e284115f3e.s3tc.ctex"
+path.etc2="res://.godot/imported/Idle_4.png-9a602dbef5b357deaafbd5e284115f3e.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 generator_parameters={
@@ -15,7 +16,7 @@ generator_parameters={
 [deps]
 
 source_file="res://assets/models/Idle_4.png"
-dest_files=["res://.godot/imported/Idle_4.png-9a602dbef5b357deaafbd5e284115f3e.s3tc.ctex"]
+dest_files=["res://.godot/imported/Idle_4.png-9a602dbef5b357deaafbd5e284115f3e.s3tc.ctex", "res://.godot/imported/Idle_4.png-9a602dbef5b357deaafbd5e284115f3e.etc2.ctex"]
 
 [params]
 

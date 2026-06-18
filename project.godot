@@ -17,8 +17,9 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 config/name="grand_trashbox"
 run/main_scene="uid://dqujt0yu2fk60"
 config/features=PackedStringArray("4.6", "Forward Plus")
-run/max_fps=30
+run/max_fps=60
 run/low_processor_mode=true
+boot_splash/show_image=false
 config/icon="res://icon.svg"
 
 [autoload]
@@ -33,6 +34,10 @@ window/stretch/mode="canvas_items"
 
 players=""
 stage=""
+
+[gui]
+
+theme/custom_font="uid://bxhfe4qwlmitd"
 
 [input]
 
@@ -86,3 +91,8 @@ reset_position={
 "events": [Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":82,"key_label":0,"unicode":114,"location":0,"echo":false,"script":null)
 ]
 }
+
+[rendering]
+
+textures/vram_compression/import_etc2_astc=true
+occlusion_culling/use_occlusion_culling=true

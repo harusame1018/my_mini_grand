@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://c207dcdtouh0y"
 path.s3tc="res://.godot/imported/new_odi_Ch33_1002_Diffuse.png-c985dc298b6398c82ec01bafedf273fa.s3tc.ctex"
+path.etc2="res://.godot/imported/new_odi_Ch33_1002_Diffuse.png-c985dc298b6398c82ec01bafedf273fa.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://assets/images/new_odi_Ch33_1002_Diffuse.png"
-dest_files=["res://.godot/imported/new_odi_Ch33_1002_Diffuse.png-c985dc298b6398c82ec01bafedf273fa.s3tc.ctex"]
+dest_files=["res://.godot/imported/new_odi_Ch33_1002_Diffuse.png-c985dc298b6398c82ec01bafedf273fa.s3tc.ctex", "res://.godot/imported/new_odi_Ch33_1002_Diffuse.png-c985dc298b6398c82ec01bafedf273fa.etc2.ctex"]
 
 [params]
 
