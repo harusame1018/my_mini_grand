@@ -1,0 +1,62 @@
+[gd_scene format=3 uid="uid://c0ld7a72q0vl1"]
+
+[ext_resource type="Script" uid="uid://6sc2qirr1jht" path="res://assets/scripts/menu.gd" id="1_8aat6"]
+[ext_resource type="PackedScene" uid="uid://d1ilu38juoae6" path="res://assets/scenes/gomibako.tscn" id="1_8omcj"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_8omcj"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_8aat6"]
+sky_material = SubResource("ProceduralSkyMaterial_8omcj")
+
+[sub_resource type="Environment" id="Environment_ugn2o"]
+background_mode = 2
+sky = SubResource("Sky_8aat6")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="LabelSettings" id="LabelSettings_8aat6"]
+font_size = 64
+
+[node name="Menu" type="Control" unique_id=1725017859]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_8aat6")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1047422112]
+environment = SubResource("Environment_ugn2o")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1739191235]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="gomibako" parent="." unique_id=742827593 instance=ExtResource("1_8omcj")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1724624372]
+transform = Transform3D(0.7664146, 0, 0.64234626, 0, 1, 0, -0.64234626, 0, 0.7664146, 0, 0, 1.7965937)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=2093644840]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.1133866, 0)
+use_collision = true
+
+[node name="Label" type="Label" parent="." unique_id=1773034214]
+layout_mode = 0
+offset_left = 159.0
+offset_top = 171.0
+offset_right = 448.0
+offset_bottom = 259.0
+text = "TrashBox"
+label_settings = SubResource("LabelSettings_8aat6")
+
+[node name="Button" type="Button" parent="." unique_id=1121910174]
+layout_mode = 0
+offset_left = 443.0
+offset_top = 273.0
+offset_right = 488.0
+offset_bottom = 299.0
+text = "Play"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
