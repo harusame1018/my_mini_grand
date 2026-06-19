@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ch37j3jfr1v67"]
+
+[ext_resource type="Script" uid="uid://cbmatxcslnr3w" path="res://assets/scripts/himitsu.gd" id="1_hgmv5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_qu7xt"]
+size = Vector3(2, 1, 2)
+
+[node name="himitsu" type="Area3D" unique_id=1345448391]
+collision_layer = 3
+collision_mask = 3
+script = ExtResource("1_hgmv5")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1769018151]
+shape = SubResource("BoxShape3D_qu7xt")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

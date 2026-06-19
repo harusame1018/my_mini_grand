@@ -15,7 +15,7 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 [application]
 
 config/name="grand_trashbox"
-run/main_scene="uid://dqujt0yu2fk60"
+run/main_scene="uid://c0ld7a72q0vl1"
 config/features=PackedStringArray("4.6", "Forward Plus")
 run/max_fps=60
 run/low_processor_mode=true

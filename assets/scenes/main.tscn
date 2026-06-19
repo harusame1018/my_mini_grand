@@ -5,9 +5,11 @@
 [ext_resource type="PackedScene" uid="uid://c3fqvwr8xgh4q" path="res://assets/scenes/player.tscn" id="2_0xm2m"]
 [ext_resource type="PackedScene" uid="uid://c8bbl37ov2lbq" path="res://assets/scenes/house_1.tscn" id="2_xplbd"]
 [ext_resource type="PackedScene" uid="uid://80mvoeuetbgr" path="res://assets/scenes/car.tscn" id="4_1bvp3"]
+[ext_resource type="PackedScene" uid="uid://36rnt0hli84b" path="res://assets/scenes/himitsukuukan.tscn" id="4_48cn3"]
 [ext_resource type="PackedScene" uid="uid://cbg0qexa0mpow" path="res://assets/scenes/bigGomibako.tscn" id="4_vesw4"]
 [ext_resource type="MeshLibrary" uid="uid://5fbxklatdpib" path="res://tiles/tiles.tres" id="5_lquwl"]
 [ext_resource type="PackedScene" uid="uid://dieh5fafa5ti4" path="res://assets/scenes/npc1.tscn" id="8_6rsl6"]
+[ext_resource type="PackedScene" uid="uid://ch37j3jfr1v67" path="res://assets/scenes/himitsu.tscn" id="9_ov4sg"]
 [ext_resource type="PackedScene" uid="uid://chk56xish74e8" path="res://assets/scenes/objectcar.tscn" id="9_p5d64"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
@@ -1461,6 +1463,13 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.973465, 0, 28.123783)
 [node name="house11" parent="stages" unique_id=1351165778 groups=["stage"] instance=ExtResource("2_xplbd")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -92.973465, 0, 7.697315)
 
+[node name="himitsukuukan" parent="stages" unique_id=1162130590 instance=ExtResource("4_48cn3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13, -24, 6)
+
+[node name="HimitsukuukanPoint" type="Marker3D" parent="stages/himitsukuukan" unique_id=1750337001]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.148426, 0)
+
 [node name="GridMap" type="GridMap" parent="." unique_id=1189540821 groups=["stage"]]
 mesh_library = ExtResource("5_lquwl")
 cell_size = Vector3(0.5, 0.25, 0.5)
@@ -1665,6 +1674,21 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -92.4384, 0.624483, 31.515015
 bounce_force = 0.0
 bounce_up_ratio = 0.0
 
+[node name="himitsu" parent="objects" unique_id=1345448391 instance=ExtResource("9_ov4sg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 53.471172, 1.1109962, 4.9955444)
+is_in_area = true
+
+[node name="himitsu2" parent="objects" unique_id=992937241 instance=ExtResource("9_ov4sg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 19.693052, -23.5, 3.9393911)
+
+[node name="Label3D" type="Label3D" parent="objects/himitsu2" unique_id=1872776090]
+transform = Transform3D(0.27154127, 0, -0.9624268, 0, 1, 0, 0.9624268, 0, 0.27154127, 0, 0.68891716, 0)
+billboard = 1
+shaded = true
+text = "ここから帰る　<e Key>
+"
+font_size = 64
+
 [node name="cars" type="Node" parent="." unique_id=1297684887]
 
 [node name="car" parent="cars" unique_id=1531592518 instance=ExtResource("4_1bvp3")]
@@ -1754,3 +1778,8 @@ line = "お、あの人引っ越してきたのか。パーティー開くか"
 transform = Transform3D(-0.8168529, 0, 0.57684594, 0, 1, 0, -0.57684594, 0, -0.8168529, 19.87574, 0.00041822, -18.41835)
 self_name = "怖がっている人"
 line = "なにあの人、怖い"
+
+[node name="NPC17" parent="npcs" unique_id=1410873391 instance=ExtResource("8_6rsl6")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.588338, -23.499582, 2.2293572)
+self_name = "おかしな人...?"
+line = "...君...どこから来たの....?  まあいいや、ここはどこかわかるかい？　ゴミ箱の管轄内かもしれないし、外かもしれない。それはだれにもわからないよ。"

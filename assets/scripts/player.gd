@@ -16,6 +16,8 @@ var is_attack = false
 var can_talk_npc = false
 var talk_npc = ""
 var canmove = true
+var is_himitsu_area:bool
+var out_himitsu_area:bool
 const JUMP_VELOCITY = 4.5
 const dash_speed = 17.0
 const normal_speed = 5.0
@@ -26,6 +28,9 @@ func _enter_tree() -> void:
 	Global.current_controller = "player"
 
 func _process(delta: float) -> void:
+	
+	
+	
 	if Global.current_controller == "car":
 		for child in get_node("/root/main").get_children():
 			if !child.name == current_car:
@@ -44,6 +49,11 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("reset_position"):
 		global_position = Vector3(0,6.843,0)
 	if Input.is_action_just_pressed("interact"):
+		if is_himitsu_area:
+			velocity = Vector3.ZERO
+			global_position = %HimitsukuukanPoint.global_position
+		if out_himitsu_area:
+			global_position = Vector3(0,6.843,0)
 		if is_near_car:
 			Global.current_controller = "car"
 			self.hide()
