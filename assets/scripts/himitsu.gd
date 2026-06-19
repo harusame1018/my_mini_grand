@@ -26,4 +26,4 @@ func _on_body_exited(body: Node3D) -> void:
 		if is_in_area:
 			body.is_himitsu_area = false
 		else:
-			body.out_himitsu_area = true
+			body.out_himitsu_area = false
