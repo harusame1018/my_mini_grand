@@ -11,6 +11,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	pass
 func play_movie():
+	$Camera3D/horror.play()
 	camera3d.global_position = initial_point.global_position
 	camera3d.global_rotation.y = deg_to_rad(-133)
 	var camera_tween = get_tree().create_tween()

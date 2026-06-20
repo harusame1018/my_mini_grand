@@ -31,3 +31,4 @@ func this_is_car():
 	can_move_car = false
 	await get_tree().create_timer(1).timeout
 	can_move_car = true
+	$engine.play()

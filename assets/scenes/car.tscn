@@ -1,6 +1,7 @@
 [gd_scene format=4 uid="uid://80mvoeuetbgr"]
 
 [ext_resource type="Script" uid="uid://bv5i0su7mty2h" path="res://assets/scripts/car.gd" id="1_7822p"]
+[ext_resource type="AudioStream" uid="uid://c2c1ssfs8ji3b" path="res://assets/audio/engine_sound.mp3" id="2_leq5i"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0xlrh"]
 resource_name = "tire"
@@ -543,3 +544,7 @@ shape = SubResource("ConvexPolygonShape3D_24jkt")
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=959446980]
 transform = Transform3D(-1, -1.5180806e-08, 8.609462e-08, -2.0203634e-08, 0.998279, -0.058644284, -8.505618e-08, -0.058644284, -0.998279, 0, 1.6860573, -5.880396)
+
+[node name="engine" type="AudioStreamPlayer3D" parent="." unique_id=671167595]
+stream = ExtResource("2_leq5i")
+volume_db = -5.0

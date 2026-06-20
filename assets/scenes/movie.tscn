@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://y1cmb50nnnyi" path="res://assets/scripts/movie.gd" id="1_so3pc"]
 [ext_resource type="PackedScene" uid="uid://dqe3i21ttsxp4" path="res://assets/scenes/new_odi.tscn" id="1_yxafk"]
 [ext_resource type="PackedScene" uid="uid://bxv7ikowf5dqa" path="res://assets/models/gomibako.glb" id="3_ky332"]
+[ext_resource type="AudioStream" uid="uid://d3kidjod872rw" path="res://assets/audio/movie.mp3" id="4_ky332"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_tiidx"]
 albedo_color = Color(0, 0, 0, 1)
@@ -57,6 +58,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5745499, 1.5038476, 3.09607
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=628924618]
 transform = Transform3D(-0.6768759, 0, -0.73609716, 0, 1, 0, 0.73609716, 0, -0.6768759, 0.36658812, 1.545193, -1.3369617)
+
+[node name="horror" type="AudioStreamPlayer3D" parent="Camera3D" unique_id=546324088]
+stream = ExtResource("4_ky332")
 
 [node name="Marker3D" type="Marker3D" parent="." unique_id=1099011433]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.244, 1.545, 1.252)

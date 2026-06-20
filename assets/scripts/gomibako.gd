@@ -10,10 +10,12 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 	if not _can_bounce:
 		return
 	for i in state.get_contact_count():
+		
 		var collider = state.get_contact_collider_object(i)
 		if collider == null: continue
 		if collider.is_in_group("stage"): continue
 		if collider is CharacterBody3D: continue
+		$conflict.play()
 		var normal = state.get_contact_local_normal(i)
 		normal.y += bounce_up_ratio
 		normal = normal.normalized()
@@ -22,6 +24,7 @@ func _integrate_forces(state: PhysicsDirectBodyState3D) -> void:
 		get_tree().create_timer(cooldown_time).timeout.connect(func():_can_bounce = true)
 		break
 func take_damage(body):
+	$punch.play()
 	var direction = (global_position - body.global_position).normalized()
 	direction.y = bounce_up_ratio
 	direction = direction.normalized()
